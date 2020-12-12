@@ -1,6 +1,7 @@
 #### Паук для сбора информации об объектах недвижимости с Zillow.com
 Установка:<br>
 pip install -r requirements.txt<br>
+Необходимо установить [geckodriver](https://github.com/mozilla/geckodriver/releases/)<br>
 Создать файл config.py в директории spiders с параметром region = 'oshkosh-wi'<br>
 Запуск:<br>
 python main.py <br>
